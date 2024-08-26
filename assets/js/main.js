@@ -392,7 +392,7 @@ function inicial() {
     if (opcionSeleccionada === "" || textoInput === "") {
       alert("Por favor selecciona una opción y escribe un indicador.");
     } else {
-      var enlaceGenerado = "https://celibertadorbolivar.github.io/web/boletas/inicial/" + opcionSeleccionada + "/" + textoInput + ".pdf";
+      var enlaceGenerado = "https://evaipcelb.github.io/celb/boletas/inicial/" + opcionSeleccionada + "/" + textoInput + ".pdf";
       var resultadoElement = document.getElementById("resultado1");
     document.getElementById("resultado1").innerHTML= enlaceGenerado;
     window.location=document.getElementById("resultado1").innerHTML;
