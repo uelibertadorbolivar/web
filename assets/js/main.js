@@ -449,7 +449,7 @@ function inicialc() {
  if (textoInput === "") {
    alert("Por favor ingrese número de cédula de identidad o escolar del estudiante");
  } else {
-   var enlaceGenerado = "https://evaipcelb.github.io/celb/constancias/"+ textoInput + ".pdf";
+   var enlaceGenerado = "https://celibertadorbolivar.github.io/constancia/"+ textoInput + ".pdf";
    var resultadoElement = document.getElementById("resultado2");
  document.getElementById("resultado2").innerHTML= enlaceGenerado;
  window.location=document.getElementById("resultado2").innerHTML;
@@ -461,7 +461,7 @@ function primariac() {
  if (textoInput === "") {
    alert("Por favor ingrese número de cédula de identidad o escolar del estudiante");
  } else {
-   var enlaceGenerado = "https://evaipcelb.github.io/celb/constancias/"+ textoInput + ".pdf";
+   var enlaceGenerado = "https://celibertadorbolivar.github.io/constancia/"+ textoInput + ".pdf";
    var resultadoElement = document.getElementById("resultado2");
  document.getElementById("resultado2").innerHTML= enlaceGenerado;
  window.location=document.getElementById("resultado2").innerHTML;
@@ -473,9 +473,10 @@ function mediac() {
  if (textoInput === "") {
    alert("Por favor ingrese número de cédula de identidad o escolar del estudiante");
  } else {
-   var enlaceGenerado = "https://mediagenerale.github.io/celb/constancias/"+ textoInput + ".pdf";
+   var enlaceGenerado = "https://celibertadorbolivar.github.io/constancia/"+ textoInput + ".pdf";
    var resultadoElement = document.getElementById("resultado2");
  document.getElementById("resultado2").innerHTML= enlaceGenerado;
  window.location=document.getElementById("resultado2").innerHTML;
 }
 }
+
