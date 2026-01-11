@@ -422,7 +422,7 @@ function media() {
   if (opcionSeleccionada === "" || textoInput === "") {
     alert("Por favor selecciona una opción y escribe un indicador.");
   } else {
-    var enlaceGenerado = "https://mediagenerale.github.io/celb/boletas/media/" + opcionSeleccionada + "/" + textoInput + ".pdf";
+    var enlaceGenerado = "https://mediagenerale.github.io/celb/media/" + opcionSeleccionada + "/" + textoInput + ".pdf";
     var resultadoElement = document.getElementById("resultado1");
   document.getElementById("resultado1").innerHTML= enlaceGenerado;
   window.location=document.getElementById("resultado1").innerHTML;
@@ -479,4 +479,5 @@ function mediac() {
  window.location=document.getElementById("resultado2").innerHTML;
 }
 }
+
 
