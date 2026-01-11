@@ -18,4 +18,5 @@ function presentacion(texto){
     },10); 
   }
   
-  presentacion("¡Hola! ¡Bienvenid@s al Portal Web del CE Libertador Bolívar! Soy Max y junto a mi compañera Zoe, somos tus guías virtuales. Te acompañaremos en una experiencia educativa, novedosa, interactiva y de desarrollo colectivo, donde te mostraremos las características de nuestra web escolar y atenderemos tus solicitudes de manera inmediata y precisa. Sin más preámbulos, sígueme y te muestro nuestra institución.");
+
+  presentacion("¡Hola! ¡Bienvenid@s al Portal Web de la Libertador Bolívar! Soy Max y junto a mi compañera Zoe, somos tus guías virtuales. Te acompañaremos en una experiencia educativa, novedosa, interactiva y de desarrollo colectivo, donde te mostraremos las características de nuestra web escolar y atenderemos tus solicitudes de manera inmediata y precisa. Sin más preámbulos, sígueme y te muestro nuestra institución.");
